@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		315083642477AA1600B858AE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315083632477AA1600B858AE /* MainViewController.swift */; };
+		315083662477C9AC00B858AE /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315083652477C9AC00B858AE /* BaseTableViewController.swift */; };
+		315083682477CA4A00B858AE /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315083672477CA4A00B858AE /* VisitorView.swift */; };
+		3150836A2477CA5C00B858AE /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315083692477CA5C00B858AE /* VisitorView.xib */; };
 		315414112477681900229716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315414102477681900229716 /* AppDelegate.swift */; };
 		3154141A2477681900229716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315414192477681900229716 /* Assets.xcassets */; };
 		3154141D2477681900229716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3154141B2477681900229716 /* LaunchScreen.storyboard */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		022A8947FA01947022165F81 /* Pods-WB_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WB_swift.release.xcconfig"; path = "Target Support Files/Pods-WB_swift/Pods-WB_swift.release.xcconfig"; sourceTree = "<group>"; };
 		315083632477AA1600B858AE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		315083652477C9AC00B858AE /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		315083672477CA4A00B858AE /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		315083692477CA5C00B858AE /* VisitorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
 		3154140D2477681900229716 /* WB_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WB_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		315414102477681900229716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		315414192477681900229716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -218,6 +224,9 @@
 			isa = PBXGroup;
 			children = (
 				315083632477AA1600B858AE /* MainViewController.swift */,
+				315083652477C9AC00B858AE /* BaseTableViewController.swift */,
+				315083672477CA4A00B858AE /* VisitorView.swift */,
+				315083692477CA5C00B858AE /* VisitorView.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -342,6 +351,7 @@
 				3154141A2477681900229716 /* Assets.xcassets in Resources */,
 				31541455247773E000229716 /* ProfileVC.xib in Resources */,
 				3154144D247773B600229716 /* DiscoverVC.xib in Resources */,
+				3150836A2477CA5C00B858AE /* VisitorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,9 +421,11 @@
 				3154144C247773B600229716 /* DiscoverVC.swift in Sources */,
 				31541454247773E000229716 /* ProfileVC.swift in Sources */,
 				315414112477681900229716 /* AppDelegate.swift in Sources */,
+				315083662477C9AC00B858AE /* BaseTableViewController.swift in Sources */,
 				31541450247773CD00229716 /* MessageVC.swift in Sources */,
 				315414492477736000229716 /* HomeVC.swift in Sources */,
 				315083642477AA1600B858AE /* MainViewController.swift in Sources */,
+				315083682477CA4A00B858AE /* VisitorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
