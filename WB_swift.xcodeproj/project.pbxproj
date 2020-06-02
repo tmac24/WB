@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		313202AF2480B0CD00FA93DA /* aaaaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 313202AE2480B0CD00FA93DA /* aaaaViewController.m */; };
+		314A01042484F07C00EADC18 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A01032484F07C00EADC18 /* SQLiteManager.swift */; };
 		315083642477AA1600B858AE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315083632477AA1600B858AE /* MainViewController.swift */; };
 		315083662477C9AC00B858AE /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315083652477C9AC00B858AE /* BaseTableViewController.swift */; };
 		315083682477CA4A00B858AE /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315083672477CA4A00B858AE /* VisitorView.swift */; };
@@ -49,6 +50,7 @@
 		313202AC2480B0CC00FA93DA /* WB_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WB_swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		313202AD2480B0CD00FA93DA /* aaaaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaaaViewController.h; sourceTree = "<group>"; };
 		313202AE2480B0CD00FA93DA /* aaaaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaaaViewController.m; sourceTree = "<group>"; };
+		314A01032484F07C00EADC18 /* SQLiteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
 		315083632477AA1600B858AE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		315083652477C9AC00B858AE /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		315083672477CA4A00B858AE /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 		31541442247772F100229716 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				314A01032484F07C00EADC18 /* SQLiteManager.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				31541450247773CD00229716 /* MessageVC.swift in Sources */,
 				315414492477736000229716 /* HomeVC.swift in Sources */,
 				315083642477AA1600B858AE /* MainViewController.swift in Sources */,
+				314A01042484F07C00EADC18 /* SQLiteManager.swift in Sources */,
 				315083682477CA4A00B858AE /* VisitorView.swift in Sources */,
 				313202AF2480B0CD00FA93DA /* aaaaViewController.m in Sources */,
 			);

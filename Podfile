@@ -10,4 +10,5 @@ target 'WB_swift' do
  pod 'SDWebImage'
  pod 'SVProgressHUD'
  pod 'SnapKit'
+ pod 'SQLite.swift'
 end
